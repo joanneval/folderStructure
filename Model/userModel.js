@@ -21,8 +21,6 @@ const users = [
   { id: 20, name: "Tina", email: "tina@example.com" },
 ];
 
-export const getUserById = (id) => {
-    return users.find(user => user.id === parseInt(id));
-};
+export default users;
 
  
